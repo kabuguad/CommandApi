@@ -7,10 +7,10 @@ namespace CommandAPI.Profiles
     {
         public CommandsProfile()
         {
-            CreateMap<Command, CommandReadDto>();
-            CreateMap<CommandCreateDto, Command>();
-            CreateMap<CommandUpdateDto, Command>();
-            CreateMap<Command, CommandUpdateDto>();
+            CreateMap<Command, CommandReadDto>();//read
+            CreateMap<CommandCreateDto, Command>();//create
+            CreateMap<CommandUpdateDto, Command>();//update
+            CreateMap<Command, CommandUpdateDto>();//partial update
         }
     }
 }

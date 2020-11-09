@@ -12,7 +12,7 @@ namespace CommandAPI.Controllers
     [ApiController]
     public class CommandsController : ControllerBase
     {
-        //comment
+        //Add the following code to our class
         private readonly ICommandAPIRepo _repository;
         private readonly IMapper _mapper;
         public CommandsController(ICommandAPIRepo repository, IMapper mapper)
